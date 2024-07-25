@@ -1,3 +1,2 @@
-My first commit :D
-Gabriel Augusto 
-2°ano F
+Meu primeiro commit :D
+nome: Gabriel Augusto
