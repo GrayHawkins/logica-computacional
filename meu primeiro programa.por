@@ -2,11 +2,11 @@ programa {
   funcao inicio() {
     //Algoritmo para exibir nome e idade
 
-    //DeclaraÁ„o de vari·veis
+    //Declara√ß√£o de vari√°veis
     cadeia nome
     inteiro idade
    
-    //AtribuiÁ„o de vari·veis
+    //Atribui√ß√£o de vari√°veis
     nome = "Gabriel"
     idade = 16
     
