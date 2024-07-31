@@ -1,24 +1,24 @@
 programa {
   funcao inicio() {
     /*
-    operações
+    operaÃ§Ãµes
     + soma
     - sub
     * mult
     / div
-    % resto da divisão
+    % resto da divisÃ£o
     */
     
     //variaveis
     real pn,sn 
     
-    //atribuição
-    escreva("digite o primeiro número: ")
+    //atribuiÃ§Ã£o
+    escreva("digite o primeiro nÃºmero: ")
     leia(pn)
-    escreva("digite o segundo número: ")
+    escreva("digite o segundo nÃºmero: ")
     leia(sn)
 
-    //operações
+    //Resultados das operaÃ§Ãµes
     escreva("\nResultado de A+B: ", (pn + sn))
     escreva("\nResultado de A-B: ", (pn - sn))
     escreva("\nResultado de AxB: ",(pn * sn))
