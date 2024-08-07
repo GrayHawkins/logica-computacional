@@ -1,10 +1,28 @@
 programa {
   funcao inicio() {
+
+//CABEÇALHO
+escreva("######################################")
+
+escreva("\n######### Calculadora de IMC #########")
+
+escreva("\n######################################")
+
+escreva("\n ")
+
+/*
+Aluno: Gabriel Augusto
+Professor: Eduardo
+Série: 2°F
+Data: 07/08/2024
+*/
+
+//CÓDIGO
     real p, imc, alt
 
-    escreva("digite seu peso: ")
+    escreva("\n- Digite seu peso: ")
     leia(p)
-    escreva("digite sua altura: ")
+    escreva("- digite sua altura: ")
     leia(alt)
     imc = p / (alt * alt)
     escreva("Resultado do IMC: ", imc)
