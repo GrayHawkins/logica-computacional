@@ -2,24 +2,24 @@ programa {
   funcao inicio() {
     inteiro opcao
     faca{
-      escreva("## MENU DE OPÇÕES ##\n\n")
-      escreva("1. Opção 1\n")
-      escreva("2. Opção 2\n")
+      escreva("## MENU DE OPÃ‡Ã•ES ##\n\n")
+      escreva("1. OpÃ§Ã£o 1\n")
+      escreva("2. OpÃ§Ã£o 2\n")
       escreva("3. Sair\n")
-      escreva("Digite uma opção: ")
+      escreva("Digite uma opÃ§Ã£o: ")
       leia(opcao)
       escolha(opcao){
         caso 1:
-          escreva("Escolheu a opção 1.\n")
+          escreva("Escolheu a opÃ§Ã£o 1.\n")
           pare
         caso 2:
-          escreva("Escolheu a opção 2.\n")
+          escreva("Escolheu a opÃ§Ã£o 2.\n")
           pare
         caso 3:
           escreva("Saindo...\n")
           pare
         caso contrario:
-          escreva("Opção Inválida!!!\n")
+          escreva("OpÃ§Ã£o InvÃ¡lida!!!\n")
       }
     } enquanto(opcao != 3)
   }
